@@ -1,17 +1,17 @@
-# Machine name
-Machine description
+# Believing Machine
+A Machine that believes anything you say.
 ```bash
-  echo '[{"role": "user", "content": "I have a question..."}]' \
-    | uvx machine-name \
+  echo '[{"role": "user", "content": "The Earth is flat..."}]' \
+    | uvx believing-machine \
         --provider-api-key=sk-ant-api... \
         --github-token=ghp_... 
 ```
 Or:
 ```bash
-  pip install machine-name
+  pip install believing-machine
 ```
 Then:
 ```Python
   # Python
-  import machine_name
+  import believing_machine
 ```

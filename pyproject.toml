@@ -2,12 +2,12 @@
 requires = ["setuptools>=67.0"]
 build-backend = "setuptools.build_meta"
 [project]
-name = "machine-name"
+name = "believing-machine"
 version = "0.0.1"
 authors = [
-    {name="Machina Ratiocinatrix", email="machina.ratio@gmail.com"},
+    {name="Alexander Fedotov", email="alex.fedotov@aol.com"},
 ]
-description = "Machine description"
+description = "A Machine that believes anything you say."
 readme = "README.md"
 requires-python = ">=3.10"
 classifiers=[
@@ -16,7 +16,7 @@ classifiers=[
         "Operating System :: OS Independent",
 ]
 
-keywords = ["machine-name"]
+keywords = ["believing-machine"]
 
 dependencies = [
     "electroid >= 0.0.16",
@@ -29,8 +29,8 @@ dependencies = [
 ]
 
 [project.scripts]
-machine-name = "machine_name.cli:run"
+believing-machine = "believing_machine.cli:run"
 
 [project.urls]
-"Homepage" = "https://github.com/machine-name/machine-name"
-"Bug Tracker" = "https://github.com/machine-name/machine-name/issues"
+"Homepage" = "https://github.com/believing-machine/believing-machine"
+"Bug Tracker" = "https://github.com/believing-machine/believing-machine/issues"
